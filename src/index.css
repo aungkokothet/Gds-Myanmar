@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
+    /*'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
+    /*sans-serif;*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+*:hover {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+input:focus {
+    outline: none;
+
+}
+.wrap {
+
+}
+.container {
+    padding: 0!important;
+}
+.title {
+    padding: 1rem 0;
+}
+.title p {
+    font-size: 1.5rem;
+    color: #ED2424;
+}
+.logo img {
+    width: 300px;
+}
+.signin img {
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 8px 0;
+}
+/* comm css */
+.form {
+    padding-bottom: 30px;
+    margin: 25px 10px;
+}
+.content {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+.main-content .title {
+    background: #ED2424;
+}
+.main-content .title p {
+    color: #fff;
+}
+.form input {
+    margin-top: 15px;
+    border: 0;
+    border-bottom: 1px solid #ED2424;
+}
+.form input:focus {
+    border-bottom: 2px solid #ED2424;
+}
+.form input, .form button,.main-content button {
+    display: block;
+    margin: 15px auto;
+    padding: 8px 15px;
+    width: 100%;
+}
+.btn-com {
+    display: block;
+    margin-top: 20px !important;
+    padding: 5px 0;
+    width: 100%;
+    background-color: #ED2424;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+}
+.btn-com a {
+    display: block;
+    color: #fff;
+}
+.cl-white {
+    color: #fff;
+}
+.bk-btn {
+    float: left;
+    padding-left: 2%;
+}
+/* comm css */
+.signin .title {
+    font-size: 1.2rem;
+    line-height: 1;
+}
+.btn-m-t {
+    margin-top: 35px !important;
+}
+/* Balance */
+.balance .list {
+    margin: 0 auto;
+    width: 96%;
+}
+.balance .list li {
+    padding: 1px 3px;
+    background: #ED2424;
+    margin: 8px 0;
+    border-radius: 1px;
+}
+.balance .list p {
+    background: #fff;
+    padding: 8px;
+}
+.balance {
+    height: 88vh;
+    overflow: auto;
+}
+.balance::-webkit-scrollbar{
+    width :0px;
+}
+.balance .app {
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    font-size: 2.5rem;
+}
+.balance .history-list {
+    position: fixed;
+    left: 2%;
+    bottom: 2%;
+    font-size: 2.5rem;
+}
+.app a,.history-list a {
+    color: black;
+}
+.history {
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 96%;
+}
+.history .detail {
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-left: 4px solid red;
+    line-height: 1.7;
+    border-radius: 3px;
+    box-shadow: 0px 3px #dddddd61;
+}
+@media screen and (max-width: 1200px){
+
+}
+
+@media screen and (min-width: 767px){
+    main-content {
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 568px){
+
+}
