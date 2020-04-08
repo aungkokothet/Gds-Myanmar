@@ -16,19 +16,7 @@ class Dashboard extends Component{
                         <div className="balance inn-content">
                             <ul className="list">
                                 <li>
-                                    <p>Balance  <i className="float-right">- 20000 ks</i></p>
-                                </li>
-                                <li>
-                                    <p>Balance  <i className="float-right">- 50000 ks</i></p>
-                                </li>
-                                <li>
-                                    <p>Balance  <i className="float-right">- 30000 ks</i></p>
-                                </li>
-                                <li>
-                                    <p>Balance  <i className="float-right">- 10000 ks</i></p>
-                                </li>
-                                <li>
-                                    <p>Balance  <i className="float-right">- 10000 ks</i></p>
+                                    <p>Balance  <i className="float-right"> 20000 ks</i></p>
                                 </li>
                             </ul>
                             <div className="app"><Link to="/partnerApp"><AiFillPlusCircle/></Link></div>
